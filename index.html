@@ -25,10 +25,10 @@ const demo={people:`李劼威 Lavo | 男 | 到场 | 武汉 / 华师一 / UPenn /
 余志成 Evan | 男 | 到场 | 扬州 / 健身 / 自动驾驶 / 单板
 安冉 | 女 | 到场 | 河北 / 浙大 / 哥大 / pharma / 普拉提
 王大元 | 男 | 到场 | 北京 / 五中分 / BU / 网球🎾/ 码农/ 🐶🐶爸
-徐艺泉 Elena | 女 | 到场 | 温州 / Brown / 码农 / 🐶🐶妈 / 乒乓球🏓前浙江省冠军（host坚持加上这个title）
+徐艺泉 Elena | 女 | 到场 | 温州 / Brown / 码农 / 🐶🐶妈 / 乒乓球🏓
 林海芃 Jimmie | 男 | 到场 | 北京 / RDF / 北大15级物院 / 哈佛PhD / NCAR earth system model / 猫猫@yutou.strudel 🐱
-黄敬纭 （纭纭 / Angela） | 女 | 到场 | 北京 / RDF / 北大16级 / JHU国际政治 / 咨询 / 波士顿找乐子 / 🐱 / 🍷
-罗勤彦Olivia | 女 | 到场 | 南京/ UMN / 会计 / 🐿️🦦爱好者
+黄敬纭（纭纭 / Angela） | 女 | 到场 | 北京 / RDF / 北大16级 / JHU国际政治 / 咨询 / 波士顿找乐子 / 🐱 / 🍷
+罗勤彦 Olivia | 女 | 到场 | 南京/ UMN / 会计 / 🐿️🦦爱好者
 董晓锐 | 男 | 到场 | 北京 / 十一 / 清华13级 / MIT / 化工 / biotech / 喜欢拼植物乐高
 李昕怡 | 女 | 到场 | 北京 / 十一 / 北大13级 / 哈佛 / pharma / 🐱妈
 薛雨晴 | 女 | 到场 | 北京 / 四中 / 北大14级 / 哥大 / pharma / Milo🐶妈
@@ -37,7 +37,7 @@ const demo={people:`李劼威 Lavo | 男 | 到场 | 武汉 / 华师一 / UPenn /
 曹子颖 | 男 | 到场 | 四川 / 北大14级 / GT / 化学 / AI / 网球 🎾/ sport e-sport双修🎮
 张英哲 | 女 | 到场 | 广东 / 华西 / 哈佛 / 虚假健身 / 🍷
 饶正昊 | 男 | 到场 | 武汉 / 华师一 / 北大15级 / Brown / 数学
-陈曦Echo | 女 | 到场 | 温州 / 浙大 / Harvard GSD / 设计师 / 🐱🐱 / 小红书发布漫画
+陈曦 Echo | 女 | 到场 | 温州 / 浙大 / Harvard GSD / 设计师 / 🐱🐱 / 小红书发布漫画
 费知行 Wanwan | 女 | 到场 | 广东 / 哈佛 GSD / Wellesley / 网球🎾/ Finance / 房地产私募基金 / 建筑 / 美术生
 杨添 | 男 | 到场 | 北京 / 十一 / 清华14级 / 化学/ Duke / BME / biotech / new in town / INFP / 攀岩 / 足球 / 🐱 / artsy stuff / 🎵
 刘茁 | 男 | 未到场 | 
@@ -51,7 +51,7 @@ PC | 男 | 未到场 | `,relations:`李劼威 Lavo - 余志成 Evan
 安冉 - 曹子颖
 安冉 - 陈曦Echo
 费知行 Wanwan - 赵颖珊
-费知行 Wanwan - 陈曦Echo
+费知行 Wanwan - 陈曦 Echo
 王大元 - PC
 PC - 曹子颖
 林海芃 Jimmie - 祝令邦
@@ -65,10 +65,10 @@ PC - 曹子颖
 刘茁 - 饶正昊
 董晓锐 - 李昕怡
 董晓锐 - 杨添
-杨添 - 罗勤彦Olivia
+杨添 - 罗勤彦 Olivia
 董晓锐 - 曹子颖
 李昕怡 - 张英哲
-李昕怡 - 罗勤彦Olivia
+李昕怡 - 罗勤彦 Olivia
 李昕怡 - 杨添
 薛雨晴 - 赵颖珊
 薛雨晴 - 曹子颖
@@ -78,8 +78,8 @@ PC - 曹子颖
 李慭yìn - 饶正昊
 饶正昊 - 赵颖珊
 饶正昊 - 曹子颖`,couples:`王大元 - 徐艺泉 Elena
-林海芃 Jimmie - 黄敬纭 （纭纭 / Angela）
-罗勤彦Olivia - 董晓锐
+林海芃 Jimmie - 黄敬纭（纭纭 / Angela）
+罗勤彦 Olivia - 董晓锐
 薛雨晴 - 李慭yìn
 赵颖珊 - 曹子颖`};
 let data;try{data=JSON.parse(localStorage.getItem(key))||demo}catch{data=demo}
